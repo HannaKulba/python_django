@@ -25,5 +25,5 @@ python manage.py runserver
 ## Run login test
 Execute command in terminal:
 ```
-python manage.py test polls
+pytest ../mysite/polls/tests.py
 ```
